@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ogstamp-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ogstamp.com/
+OG Stamp provides a pay‑as‑you‑go API for generating Open Graph and social card images. Users can create custom images via a simple HTTP endpoint, purchase credit packs through PayPal, and integrate the service with client libraries for Node/TypeScript. No subscription required. The platform offers themes, automatic URL parsing for titles and descriptions, and a free designer for quick previews, making it suitable for developers and marketers seeking dynamic visual content without managing image assets.
+
+**Areas:** Open Graph · Image Generation · API · Pay-as-you-go · Social Media
+
+## ogstamp-com on APIs.io
+
+Everything profiled for ogstamp-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ogstamp-com/](https://apis.io/providers/ogstamp-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [ogstamp-com Auto API](https://apis.io/apis/ogstamp-com/ogstamp-com-auto-api/) — The Auto API from ogstamp-com — 1 operation(s) for auto.
+- [ogstamp-com Credits API](https://apis.io/apis/ogstamp-com/ogstamp-com-credits-api/) — The Credits API from ogstamp-com — 1 operation(s) for credits.
+- [ogstamp-com MCP API](https://apis.io/apis/ogstamp-com/ogstamp-com-mcp-api/) — The Mcp API from ogstamp-com — 1 operation(s) for mcp.
+- [ogstamp-com Og API](https://apis.io/apis/ogstamp-com/ogstamp-com-og-api/) — The Og API from ogstamp-com — 1 operation(s) for og.
+- [ogstamp-com Packs API](https://apis.io/apis/ogstamp-com/ogstamp-com-packs-api/) — The Packs API from ogstamp-com — 1 operation(s) for packs.
+- [ogstamp-com Peek API](https://apis.io/apis/ogstamp-com/ogstamp-com-peek-api/) — The Peek API from ogstamp-com — 1 operation(s) for peek.
+- [ogstamp-com Recover API](https://apis.io/apis/ogstamp-com/ogstamp-com-recover-api/) — The Recover API from ogstamp-com — 1 operation(s) for recover.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ogstamp Com Agentic Access](https://apis.io/agentic-access/ogstamp-com/ogstamp-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ogstamp-com API Rules](https://apis.io/rules/ogstamp-com/ogstamp-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ogstamp Com Authentication](https://apis.io/security/ogstamp-com/ogstamp-com-authentication/)
+- [Ogstamp Com Domain Security](https://apis.io/security/ogstamp-com/ogstamp-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ogstamp Com Scopes](https://apis.io/scopes/ogstamp-com/ogstamp-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ogstamp Com Plans Pricing](https://apis.io/plans/ogstamp-com/ogstamp-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ogstamp Com Rate Limits](https://apis.io/rate-limits/ogstamp-com/ogstamp-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ogstamp.com/)
+- [Documentation](https://ogstamp.com/docs/)
+- [Pricing](https://ogstamp.com/pricing/)
+- [Terms of service](https://ogstamp.com/terms/)
+- [Privacy policy](https://ogstamp.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 47.7** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 43.2 |
+| Contract governance | 65.5 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 60.0 |
+
+**Agent readiness 35.1** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ogstamp-com/](https://apis.io/providers/ogstamp-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ogstamp-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ogstamp-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
